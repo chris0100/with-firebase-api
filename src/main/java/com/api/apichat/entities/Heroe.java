@@ -24,7 +24,7 @@ public class Heroe {
 
     @NotNull
     @Column(name = "nombre")
-    @Size(min = 3, max = 15)
+    @Size(min = 3, max = 15, message = "debe tener entre 3 y 15 caracteres")
     private String nombre;
 
     @NotNull
